@@ -1,0 +1,563 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:14px;
+	line-height: 24px;
+}
+a, a:hover{
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+.header-section{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+.header-section .bg-light{
+	width: 100%;
+	background-color: transparent !important;
+	margin: -25px 0px;
+}
+.header-section .navbar-light .navbar-nav .nav-link.active{
+	text-transform: capitalize;
+    font-size:15px;
+    font-weight: 600;
+    color:#511de5;
+}
+.header-section .navbar-light .navbar-nav .nav-link.active:hover, .header-section .navbar-light .navbar-nav .nav-link.active:focus{
+	text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    background: url("../images/line.png") center bottom no-repeat;
+    background-size: contain;
+    
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px 10px;
+    color: #000;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover, .header-section .navbar-light .navbar-nav .nav-link:focus{
+	text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    background: url("../images/line.png") center bottom no-repeat;
+    background-size: contain;
+}
+.header-section .btn-info{
+	text-transform: capitalize;
+    border: none;
+    color: #fff;
+    border-radius: 40px;
+    background: linear-gradient(to right, #511de5, #0c8afb);
+    padding: 9px 40px;
+    margin: 0px 12px;
+    font-size: 15px;
+}
+.header-section .btn-info:hover, .header-section .btn-info:focus{
+	border: 1px solid #511de5;
+	 background: linear-gradient(to right,#0c8afb, #511de5);
+}
+.header-section .banner{
+	width: 100%;
+	padding: 90px 0px;
+}
+.header-section .inner-banner{
+	width: 100%;
+	padding: 130px 0px;
+	text-align: right;
+	margin: 75px 0px;
+}
+.header-section .inner-banner h1{
+	font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+}
+.header-section .inner-banner .btn-primary{
+	background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #000;
+    font-size: 9px;
+    text-transform: uppercase;
+    padding: 12px 38px;
+    border-radius: 25px;
+    margin: 0px -18px;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+.header-section .inner-banner .btn-primary:hover {
+	background: #511de5;
+	border: 1px solid #511de5;
+	color: #fff;
+}
+
+.semi-banner{
+	width: 100%;
+	background: url("../images/wbanner.png") center bottom no-repeat;
+	background-size: cover;
+	padding: 40px 0px;
+}
+.semi-banner .main-banner{
+	text-align: center;
+}
+.semi-banner .bg-light{
+	width: 100%;
+	background: transparent !important;
+	position: relative;
+}
+.semi-banner .bg-light span img{
+	width: 235px;
+    height: 181px;
+    position: absolute;
+    top: -92px;
+    bottom: 1px;
+    left: 92px;
+}
+.semi-banner h4{
+	font-size: 25px;
+    line-height: 35px;
+    color: #fff;
+    font-weight: 600;
+}
+.feature{
+	width: 100%;
+	
+}
+.feature .inner-feature{
+	width: 100%;
+	
+	background: url("../images/features.png") center bottom no-repeat;
+	background-size: cover;
+	margin: 140px 0px;
+	box-shadow: 1px 4px 10px #ccc;
+	padding: 153px;
+}
+.feature .inner-feature h1{
+	text-align: left;
+	font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #000;
+}
+.feature .inner-feature p{
+	text-align: left;
+	font-size: 14px;
+    line-height: 24px;
+    margin: 20px 0px;
+    color: #000;
+    margin-bottom: 110px;
+}
+.feature .inner-feature .percent{
+	text-align: left;
+	font-size: 95px;
+    font-weight: 900;
+   background: linear-gradient(to right, #511de5, #0c8afb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -o-text-fill-color: transparent;
+    -o-background-clip: text;
+    -ms-text-fill-color: transparent;
+    -ms-background-clip: text;
+}
+.feature .client{
+     width: 100%;
+}
+.feature .client img{
+	padding: 0px 52px;
+    margin: -50px 0px;
+}
+.quote{
+	width: 100%;
+	background: url("../images/iquote.png") center top no-repeat;
+	background-size: cover;
+	margin: 142px 0px;
+}
+.quote .quote-small{
+	width: 100%;
+	position: relative;
+}
+.quote .quote-small img{
+	width: 81%;
+    margin: 210px 148px;
+    height: 367px;
+}
+.quote .quote-small p{
+	position: absolute;
+    top: 316px;
+    bottom: 1px;
+    left: 241px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 23px;
+}
+.quote .quote-small h6{
+	position: absolute;
+    top: 443px;
+    bottom: 1px;
+    left: 242px;
+    color: #fff;
+}
+.quote .quote-large{
+	width: 100%;
+	margin: 274px 102px;
+}
+.quote .quote-large h2{
+	font-size: 36px;
+    line-height: 46px;
+    color: #000;
+}
+.quote .quote-large .btn-primary{
+	background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #000;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 12px 38px;
+    border-radius: 25px;
+    margin: 31px -18px;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+.quote .quote-large .btn-primary:hover{
+	background: #511de5;
+	border: 1px solid #511de5;
+	color: #fff;
+}
+.campaign{
+	width: 100%;
+}
+.campaign .campaign-text{
+	width: 100%;
+	text-align: left;
+	margin: -50px 75px;
+}
+.campaign .campaign-text h2{
+	font-size: 40px;
+    line-height: 50px;
+    font-weight: 1000;
+    color: #000;
+}
+.campaign .campaign-text p{
+	font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    margin: 23px 0px;
+}
+.campaign .campaign-text .social-image{
+	margin: 25px 0px;
+}
+.campaign .campaign-text .social-image span{
+	margin-left: 25px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 900;
+}
+.campaign .campaign-text .social-image .scnd{
+	    margin-left: 20px;
+}
+
+.campaign .campaign-text .btn-primary{
+	text-transform: uppercase;
+    border: none;
+    color: #fff;
+    border-radius: 40px;
+    background: linear-gradient(to right, #511de5, #0c8afb);
+    padding: 12px 40px;
+    margin: 0px 12px;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.campaign .campaign-text .btn-primary:hover, .campaign .campaign-text .btn-primary:focus{
+	border: 1px solid #511de5;
+	 background: linear-gradient(to right,#0c8afb, #511de5);
+}
+
+.campaign .campaign-img img{
+	width: 100%;
+	margin: -100px 30px;
+}
+.design{
+	width: 100%;
+	background: url("../images/effciency.png") center top no-repeat;
+	background-size: cover;
+	margin: 140px 0px;
+}
+.design .title{
+	width: 100%;
+	text-align: center;
+}
+.design .title h1{
+	font-size: 45px;
+    line-height: 55px;
+    font-weight: 1000;
+    color: #000;
+    margin-top: 70px;
+}
+.design .title p{
+	font-size: 12px;
+    line-height: 22px;
+    color: #000;
+    margin: 23px 0px;
+}
+.design .inner-design{
+	width: 100%;
+	text-align: center;
+	margin: 60px 25px;
+}
+.design .inner-design h5{
+	font-size: 18px;
+    color: #000;
+    text-align: center;
+    margin: 20px 0px;
+}
+}
+.design .inner-design p{
+	font-size: 14px;
+	line-height: 24px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.note{
+	width: 100%;
+}
+.note .note-title{
+	width: 100%;
+	text-align: center;
+}
+.note .note-title h1{
+	font-size: 45px;
+    line-height: 55px;
+    font-weight: 1000;
+    color: #000;
+    margin-top: -75px;
+    margin-bottom: 60px;
+
+}
+.note .inner-note{
+	width: 100%;
+	background: url("../images/c1.png") center top no-repeat;
+	background-size: container;
+	box-shadow: 1px 4px 10px #ccc;
+    padding: 2px;
+}
+.note .inner-note p{
+	text-align: center;
+	background: linear-gradient(to right, #511de5, #0c8afb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:26px;
+    margin: 90px 0px;
+
+}
+.note .card{
+	border: none;
+	text-align: center;
+	padding: 35px 0px;
+	border-top: 1px solid #ccc;
+    margin: 19px 0px;
+
+}
+.note .card img{
+	width: 16%;
+    text-align: center;
+    margin: 0px 118px;
+    margin-top: 26px;
+}
+.note .card h5{
+	font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+}
+.note .card .band{
+	font-size: 14px;
+	color: #676767;
+	font-weight: 500;
+}
+.footer-section{
+	width: 100%;
+	background: url("../images/fbg.png")center bottom no-repeat;
+	background-size: cover;
+	padding: 60px 0px;
+	margin: 260px 0px;
+	margin-bottom: 0px;
+}
+.footer-section .inner-footer{
+	width: 60%;
+    background: #fff;
+    padding: -17px -73px;
+    margin: 20px 294px;
+    box-shadow: 1px 4px 10px #000;
+    padding: 200px 0px;
+
+}
+.footer-section .inner-footer h1{
+	font-size: 45px;
+    line-height: 55px;
+    font-weight: 1000;
+    color: #000;
+    margin-top: -93px;
+    margin-bottom: 82px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.footer-section .accordion{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: -104px
+}
+.footer-section .accordion .accordion-header{
+	width: 100%
+}
+.footer-section .accordion .accordion-header span{
+   font-size: 14px;
+    color: #000;
+    font-weight: 600;
+}
+.footer-section .accordion .accordion-header span:hover{
+    color: #511de5;
+}
+
+.footer-section .main-footer{
+	width: 100%;
+}
+
+.footer-section .bg-light {
+    background-color: #f8f9fa00!important;
+    margin-right: -330px;
+}
+.footer-section .navbar-nav{
+	width: 50%;
+	margin: 58px 0px;
+    margin-bottom: 14px;
+
+}
+.footer-section .navbar-light .navbar-nav .nav-link.active{
+	color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+
+}
+.footer-section .navbar-light .navbar-nav .nav-link{
+	color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.footer-section .copyright{
+	width: 100%;
+	text-align: right;
+	position: relative;
+}
+.footer-section .copyright p{
+  font-size: 14px;
+    color: #fff;
+    position: absolute;
+    bottom: 11px;
+    right: 238px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************
+ *responsive code*
+
+*************/
+@media (min-width: 320px) and (max-width:480px){
+	.header-section{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+	margin: -133px 13px;
+}
+	.header-section .bg-light{
+	width: 100%;
+    background-color: transparent !important;
+    margin: -46px 0px;
+}
+.header-section .bg-light img{
+	width: 110px;
+    height: 127px;
+    margin-top: 23px;
+}
+.header-section .navbar-light .navbar-nav .nav-link.active{
+	text-transform: capitalize;
+    font-size:15px;
+    font-weight: 600;
+    color:#511de5;
+}
+	.header-section .inner-banner h1{
+		font-size: 23px;
+    line-height: 33px;
+    font-weight: 500;
+}
+.semi-banner{
+	width: 100%;
+	background: url("../images/wbanner.png") center bottom no-repeat;
+	background-size: cover;
+	padding: 20px 0px;
+}
+.semi-banner .bg-light span img{
+	width: 76px;
+    height: 74px;
+    position: absolute;
+    top: -42px;
+    bottom: 1px;
+    left: -12px;
+}
+.semi-banner h4{
+	font-size: 9px;
+    line-height: 19px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (min-width:481px) and (max-width:767px){
+
+	
+}
+@media (min-width:768px) and (max-width:1024px){
+
+	
+}
